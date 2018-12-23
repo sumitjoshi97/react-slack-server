@@ -1,0 +1,9 @@
+{
+  "name": "react-slack-server",
+  "version": "1.0.0",
+  "description": "server for react-slack",
+  "main": "index.js",
+  "author": "Sj",
+  "license": "MIT",
+  "private": false
+}
