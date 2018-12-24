@@ -15,8 +15,8 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 app.use(cors())
 
-app.get('/test', (req, res) => {
-  res.send('server test route running')
+app.get('/', (req, res) => {
+  res.send('server running')
 })
 
 app.post('/users', (req, res) => {
