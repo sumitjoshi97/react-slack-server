@@ -21,7 +21,6 @@ app.get('/', (req, res) => {
 
 app.post('/users', (req, res) => {
   const { username } = req.body
-  console.log(req.body)
   chatkit
     .createUser({
       id: username,
